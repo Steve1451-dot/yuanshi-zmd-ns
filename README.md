@@ -1,15 +1,15 @@
-# 圆石启动器 · 终末地 独立版
+# 圆石启动器 · ZMD 独立版
 
-面向 Nintendo Switch 的非官方 终末地 云游戏客户端。可在 Switch 原生系统下通过 hbmenu 使用。
+面向 Nintendo Switch 的非官方 ZMD 云游戏客户端。可在 Switch 原生系统下通过 hbmenu 使用。
 
-[下载 0.2.152 alpha](https://github.com/Steve1451-dot/endfield/releases/tag/v0.2.152)
+[下载 0.2.152 alpha](https://github.com/Steve1451-dot/yuanshi-zmd-ns/releases/tag/v0.2.152)
 
-![终末地 串流画面](docs/screenshots/zmd-streaming-diagnostics.jpg)
+![ZMD 串流画面](docs/screenshots/zmd-streaming-diagnostics.jpg)
 
 ## 安装与使用
 
 1. 打开发布页，下载 `yuanshi-endfield-classic-0.2.152.zip`，将压缩包里的 `switch` 文件夹合并到 SD 卡根目录。也可单独下载 NRO 放入 `switch/`。
-2. 在完整应用模式下运行 hbmenu，打开对应的 终末地 独立版。有效登录会自动启动或排队，需要重新登录时按提示扫码。
+2. 在完整应用模式下运行 hbmenu，打开对应的 ZMD 独立版。有效登录会自动启动或排队，需要重新登录时按提示扫码。
 3. 更新时保留 `switch/yuanshi-launcher/` 下的设置和登录数据，替换该版本的 NRO 即可。
 
 基于 0.2.113 当时的源码重建，保留旧串流链路和硬解异常退出保护。首次启动请求 60 FPS 和中画质（8 Mbps 上限）。
@@ -18,7 +18,7 @@
 
 ## 源码构建
 
-在装有 devkitPro 和 Switch 依赖的环境中运行 `bash scripts/build-switch-msys2.sh`。Windows 可运行 `./build-switch.ps1`。默认构建 终末地 独立版，输出位于 `build/switch/yuanshi-launcher.nro`。
+在装有 devkitPro 和 Switch 依赖的环境中运行 `bash scripts/build-switch-msys2.sh`。Windows 可运行 `./build-switch.ps1`。默认构建 ZMD 独立版，输出位于 `build/switch/yuanshi-launcher.nro`。
 
 ## 许可
 
